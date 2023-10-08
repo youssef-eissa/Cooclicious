@@ -4,8 +4,7 @@ An integrated API website for many of food receipes and allow users for see each
 
 # Api sources:
 
-- https://fakestoreapi.com/products for products
-- https://fakestoreapi.com/users for users
+- https://www.themealdb.com/api/json/v1/1/search.php?s= for receipes
 
 # About the website
 
@@ -17,15 +16,6 @@ The Cooclicious website includes the following pages:
 - Gallery Page
 - Detailed recipe Page
 - Contact Page
-
-# Features
-
-The e-commerce ShopZone project includes the following features:
-
-- Search bar to filter all products
-- Add And remove products in the cart
-- Calculate all chosen products price in cart
-- Users who do not have account can be login as a guest
 
 # Technologies Used
 
