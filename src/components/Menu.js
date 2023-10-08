@@ -36,7 +36,7 @@ return (
                             transition={{duration:2}}
                             className='col-12 d-flex column-gap-3 row-gap-3 justify-content-center flex-wrap'>
                             {isSuccess&&data.meals.map(meal => {
-                            return <Link to='/cooclicious/singlemeal' onClick={()=>handleSingleMeal(meal)} style={{textDecoration:'none'}} key={meal.idMeal} className='col-md-3 col-10 mealCon d-flex flex-column rounded overflow-hidden'>
+                            return <Link to='/singlemeal' onClick={()=>handleSingleMeal(meal)} style={{textDecoration:'none'}} key={meal.idMeal} className='col-md-3 col-10 mealCon d-flex flex-column rounded overflow-hidden'>
                                 <div className='mealImg overflow-hidden col-12'>
                                     <img alt='mealImg' src={`${meal.strMealThumb}`} className='img-fluid' />
                                 </div>

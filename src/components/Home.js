@@ -66,7 +66,7 @@ return (
                 style={{ color: 'white' }} className='col-12 position-absolute w-100 h-100 z-3 d-flex p-0 justify-content-center align-items-center flex-column'>
                 <span style={{  fontFamily: 'Dosis, sans-serif'}} className='col-md-6 col-12 text-center text-md-start head'>Welcome to <span style={{ fontFamily: 'Pirata One, cursive' }}>Cooclicious</span></span>
                 <span style={{ fontFamily: 'Dosis, sans-serif' }} className='col-md-6 col-12 text-center text-md-start explore'>Explore our menu</span>
-                <Link reloadDocument to='/cooclicious/menu' onClick={()=>window.scrollTo({top:0,behavior:'smooth'})} style={{ fontFamily: 'Dosis, sans-serif', textDecoration: 'none' }} className='toMenu col-md-2 col-6 mt-3 mt-md-0 d-flex py-3 justify-content-center rounded position-relative '>
+                <Link reloadDocument to='/menu' onClick={()=>window.scrollTo({top:0,behavior:'smooth'})} style={{ fontFamily: 'Dosis, sans-serif', textDecoration: 'none' }} className='toMenu col-md-2 col-6 mt-3 mt-md-0 d-flex py-3 justify-content-center rounded position-relative '>
 
                     <span className='col-12 position-absolute z-1 rounded menuoverlay'></span>
 
@@ -118,7 +118,7 @@ return (
                             animate={animate1}
                             className='col-12 d-flex column-gap-3 row-gap-3 justify-content-center flex-wrap'>
                             {isSuccess&&data.meals.slice(0,9).map(meal => {
-                            return <Link reloadDocument to='/cooclicious/singlemeal' onClick={()=>handleSingleMeal(meal)} style={{textDecoration:'none'}} key={meal.idMeal} className='col-md-3 col-12 mealCon d-flex flex-column rounded overflow-hidden'>
+                            return <Link reloadDocument to='/singlemeal' onClick={()=>handleSingleMeal(meal)} style={{textDecoration:'none'}} key={meal.idMeal} className='col-md-3 col-12 mealCon d-flex flex-column rounded overflow-hidden'>
                                 <div className='mealImg overflow-hidden col-12'>
                                     <img alt='mealImg' src={ `${meal.strMealThumb}`} className='img-fluid' />
                                 </div>
