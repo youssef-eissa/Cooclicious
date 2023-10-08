@@ -11,7 +11,7 @@ return (
         <div className='row footer'>
             <div className='col-12 d-flex flex-column flex-md-row up pb-3'>
                 <div className='col-md-3 col-12 d-flex flex-column'>
-                    <Link reloadDocument to='/CoocliciousFR/' onClick={()=>window.scrollTo({top:0,behavior:'smooth'})} className='col-12 link' style={{ fontFamily: 'Pirata One, cursive' }}>Cooclicious</Link>
+                    <Link reloadDocument to='/' onClick={()=>window.scrollTo({top:0,behavior:'smooth'})} className='col-12 link' style={{ fontFamily: 'Pirata One, cursive' }}>Cooclicious</Link>
                     <p className='col-9 my-4' style={{ fontFamily: 'Mukta, sans-serif', color: 'white' }}>Steakhouse the nunc bibe endum in finibus elit the solli citudin elit.</p>
                     <div className='col-md-9 col-12 d-flex justify-content-between'>
                         <Link className='col-2 d-flex justify-content-center align-items-center socialBox p-1'>
