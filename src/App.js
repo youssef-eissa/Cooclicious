@@ -15,7 +15,7 @@ function App() {
     <div className='overflow-hidden position-relative'>
       <Nav />
       <Routes>
-        <Route path='//' element={<Home />} />
+        <Route path='/' element={<Home />} />
         <Route path='/about' element={<About />} />
         <Route path='/menu' element={<Menu />} />
         <Route path='/singlemeal' element={<SingleMeal />} />
