@@ -1,4 +1,4 @@
-# ShopZone E-commerce Wibsite
+# Cooclicious Food Recipe Website
 
 An integrated API website for many of food receipes and allow users for see each recipe details in separated page
 
