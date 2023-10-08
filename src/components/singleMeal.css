@@ -1,0 +1,38 @@
+:root {
+    --sec-color: #991b1f;
+}
+
+.theMeal .head {
+    height: 500px;
+    background-color: rgb(0 0 0 / 30%)
+}
+
+.nameOfMeal {
+    position: relative;
+}
+
+.nameOfMeal::before {
+    position: absolute;
+    content: '';
+    bottom: 0;
+    left: 0;
+    width: 20%;
+    height: 2px;
+    background-color: var(--sec-color);
+}
+
+.mealInfoCon {
+    background-color: #f8f4f3;
+}
+
+.mealInfoCon p {
+    font-size: 20px;
+}
+
+.ingredients span {
+    font-size: 25px;
+}
+
+.ingredientsBox {
+    border: 1px solid var(--sec-color);
+}

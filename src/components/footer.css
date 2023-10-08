@@ -1,0 +1,64 @@
+:root {
+    --sec-color: #991b1f;
+}
+
+.footer {
+    background-color: #101010;
+    padding: 100px 100px 0;
+}
+
+.footer .link {
+    text-decoration: none;
+    font-size: 50px;
+    color: white;
+}
+
+.footer .up {
+    border-bottom: 1px dashed rgba(255, 255, 255, 0.1)
+}
+
+.socialBox {
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    border: 1px solid var(--sec-color);
+    transition: 0.3s;
+}
+
+.socialBox:hover {
+    border: 1px solid white;
+}
+
+.socialBox .social {
+    color: white;
+}
+
+.footer h4 {
+    color: rgba(255, 255, 255, 0.8);
+    border-bottom: 1px dashed rgba(255, 255, 255, 0.1)
+}
+
+.phoneAndEmail span {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 15px;
+    font-family: 'Mukta', sans-serif;
+}
+
+.address span {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 15px;
+    font-family: 'Mukta', sans-serif;
+}
+
+.footer .down span {
+    font-size: 15px;
+    font-family: 'Mukta', sans-serif;
+    color: white;
+}
+
+@media (max-width:768px) {
+    .footer {
+        background-color: #101010;
+        padding: 50px 50px 0;
+    }
+}

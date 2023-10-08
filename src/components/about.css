@@ -1,0 +1,98 @@
+:root {
+    --sec-color: #991b1f;
+}
+
+.aboutPage {
+    height: 500px;
+    background-color: rgb(0 0 0 / 30%)
+}
+
+.aboutHead {
+    font-size: 60px;
+    position: relative;
+}
+
+.aboutHead::before {
+    position: absolute;
+    content: '';
+    bottom: 0;
+    left: 0;
+    width: 20%;
+    height: 2px;
+    background-color: var(--sec-color);
+}
+
+.receipeHouse {
+    position: relative;
+    margin-left: 70px;
+}
+
+.receipeHouse::before {
+    width: 10%;
+    left: -66px;
+    bottom: 50%;
+    transform: translateY(-50%);
+    position: absolute;
+    content: '';
+    background-color: var(--sec-color);
+    height: 1px;
+}
+
+.downRightBot {
+    border: 10px solid #f8f4f3;
+    position: relative;
+}
+
+.downRightBot .circle {
+    width: 50px;
+    height: 50px;
+    background-color: #f8f4f3;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    top: 30px;
+    left: 20px;
+}
+
+.downRightBot .Year {
+    position: absolute;
+    z-index: 3;
+    left: -30px;
+}
+
+.downRightBot .Year .number {
+    font-size: 90px;
+    color: var(--sec-color);
+}
+
+@media (max-width:768px) {
+    .receipeHouse {
+        position: relative;
+        margin-left: 65px;
+    }
+
+    .receipeHouse::before {
+        width: 15%;
+        left: -66px;
+        bottom: 50%;
+        transform: translateY(-50%);
+        position: absolute;
+        content: '';
+        background-color: var(--sec-color);
+        height: 1px;
+    }
+
+    .aboutHead::before {
+        position: absolute;
+        content: '';
+        bottom: 0;
+        left: 0;
+        width: 30%;
+        height: 2px;
+        background-color: var(--sec-color);
+    }
+
+    .aboutHead {
+        font-size: 40px;
+    }
+}

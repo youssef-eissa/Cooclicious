@@ -1,0 +1,29 @@
+:root {
+    --sec-color: #991b1f;
+}
+
+.nav {
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    color: white;
+    transition: 0.7s;
+    top: 0;
+    left: 0;
+}
+
+.nav .logo {
+    font-size: 40px;
+}
+
+.nav nav .navLink {
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+    font-weight: bold;
+}
+
+.nav nav .navLink:hover {
+    color: var(--sec-color);
+}

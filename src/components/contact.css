@@ -1,0 +1,84 @@
+:root {
+    --sec-color: #991b1f;
+}
+
+.contactHead {
+    height: 500px;
+    background-color: rgb(0 0 0 / 30%)
+}
+
+.contactHead h1 {
+    font-size: 60px;
+}
+
+.contactHead span {
+    font-size: 25px;
+    position: relative;
+}
+
+.contactHead span::after {
+    position: absolute;
+    content: '';
+    bottom: -10px;
+    left: 0;
+    width: 20%;
+    height: 2px;
+    background-color: var(--sec-color);
+}
+
+.contactInfo h1 span {
+    color: var(--sec-color);
+}
+
+form input,
+form textarea {
+    border: 1px solid #ece3e0;
+    ;
+    font-family: 'Mukta', sans-serif;
+}
+
+form input:focus,
+form textarea:focus {
+    outline: none;
+}
+
+form textarea {
+    height: 200px;
+    resize: none;
+}
+
+button {
+    background-color: var(--sec-color);
+    border: none;
+    color: white;
+    font-family: 'Mukta', sans-serif !important;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: black;
+}
+
+.wh .working-hours {
+    position: relative;
+    left: 0;
+    background-color: #f8f4f3 !important;
+}
+
+@media (max-width:768px) {
+    .contactHead h1 {
+        font-size: 40px;
+    }
+
+    .contactHead span {
+        font-size: 20px;
+    }
+
+    .wh .working-hours {
+        position: relative;
+        left: 50%;
+        background-color: #f8f4f3 !important;
+        transform: translate(-50%);
+    }
+
+}

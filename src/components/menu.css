@@ -1,0 +1,70 @@
+:root {
+    --sec-color: #991b1f;
+}
+
+.menu h1 {
+    font-family: 'Pirata One', cursive;
+    position: relative;
+    font-size: 60px;
+}
+
+.menuPage {
+    height: 500px;
+    background-color: rgb(0 0 0 / 30%)
+}
+
+.menuHead {
+    font-size: 50px;
+}
+
+.menuHead span:nth-child(2) {
+    position: relative;
+}
+
+.menuHead span:nth-child(2)::before {
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 20%;
+    left: 0;
+    bottom: -10px;
+    background-color: var(--sec-color);
+
+}
+
+.menu h1::before {
+    content: '';
+    position: absolute;
+    height: 1px;
+    width: 5%;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: var(--sec-color);
+}
+
+.menu h1 span {
+    color: var(--sec-color);
+}
+
+.mealCon img {
+    transition: 0.3s;
+}
+
+.mealCon:hover img {
+    transform: scale(1.2);
+}
+
+@media (max-width:768px) {
+    .menuHead {
+        font-size: 30px;
+    }
+
+    .menu h1 {
+        font-size: 40px;
+    }
+
+    .menu h1::before {
+        width: 20%;
+    }
+}
