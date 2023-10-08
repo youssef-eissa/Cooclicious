@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/cooclicious/static/css/main.b2df84a0.css",
+    "main.js": "/cooclicious/static/js/main.c51f9d94.js",
+    "static/js/787.1a7f7fb1.chunk.js": "/cooclicious/static/js/787.1a7f7fb1.chunk.js",
+    "static/media/homeBG2.jpeg": "/cooclicious/static/media/homeBG2.0e2766aa1338da97a146.jpeg",
+    "static/media/homeBG.jpg": "/cooclicious/static/media/homeBG.eda3ca0d2a81b8b8824e.jpg",
+    "static/media/homeBG4.jpeg": "/cooclicious/static/media/homeBG4.b68a93b7c2ab2e8f414b.jpeg",
+    "static/media/bodyBG.jpeg": "/cooclicious/static/media/bodyBG.46366a21b12336087df6.jpeg",
+    "static/media/homeBG3.jpeg": "/cooclicious/static/media/homeBG3.f0c3b6ff8210df610963.jpeg",
+    "static/media/aboutrecipe.jpeg": "/cooclicious/static/media/aboutrecipe.852c7a5c215efb5b82bb.jpeg",
+    "index.html": "/cooclicious/index.html",
+    "main.b2df84a0.css.map": "/cooclicious/static/css/main.b2df84a0.css.map",
+    "main.c51f9d94.js.map": "/cooclicious/static/js/main.c51f9d94.js.map",
+    "787.1a7f7fb1.chunk.js.map": "/cooclicious/static/js/787.1a7f7fb1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b2df84a0.css",
+    "static/js/main.c51f9d94.js"
+  ]
+}
