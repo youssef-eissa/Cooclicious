@@ -15,12 +15,12 @@ function App() {
     <div className='overflow-hidden position-relative'>
       <Nav />
       <Routes>
-        <Route path='/' element={<Home />} />
-        <Route path='/about' element={<About />} />
-        <Route path='/menu' element={<Menu />} />
-        <Route path='/singlemeal' element={<SingleMeal />} />
-        <Route path='/Gallery' element={<Gallery />} />
-        <Route path='/Contact' element={<Contact />} />
+        <Route path='/cooclicious/' element={<Home />} />
+        <Route path='/cooclicious/about' element={<About />} />
+        <Route path='/cooclicious/menu' element={<Menu />} />
+        <Route path='/cooclicious/singlemeal' element={<SingleMeal />} />
+        <Route path='/cooclicious/Gallery' element={<Gallery />} />
+        <Route path='/cooclicious/Contact' element={<Contact />} />
       </Routes>
       <Footer/>
     </div>

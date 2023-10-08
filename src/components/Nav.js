@@ -34,11 +34,11 @@ return (
                 Cooclicious
             </Link>
             <nav  style={{fontFamily:'Dancing Script, cursive'}} className='col-9 d-md-flex d-none p-0 justify-content-center align-items-center'>
-            <Link reloadDocument to='/' onClick={()=>window.scrollTo({top:0,behavior:'smooth'})}  className='col-1 text-center navLink'>Home</Link>
-            <Link reloadDocument to='/about' onClick={()=>window.scrollTo({top:0,behavior:'smooth'})}  className='col-1 text-center navLink'>About</Link>
-            <Link reloadDocument to='/menu' onClick={()=>window.scrollTo({top:0,behavior:'smooth'})}  className='col-1 text-center navLink'>Menu</Link>
-            <Link reloadDocument to='/gallery' onClick={()=>window.scrollTo({top:0,behavior:'smooth'})}  className='col-1 text-center navLink'>Gallery</Link>
-            <Link reloadDocument to='/contact' onClick={()=>window.scrollTo({top:0,behavior:'smooth'})}  className='col-1 text-center navLink'>Contact</Link>
+            <Link reloadDocument to='/cooclicious/' onClick={()=>window.scrollTo({top:0,behavior:'smooth'})}  className='col-1 text-center navLink'>Home</Link>
+            <Link reloadDocument to='/cooclicious/about' onClick={()=>window.scrollTo({top:0,behavior:'smooth'})}  className='col-1 text-center navLink'>About</Link>
+            <Link reloadDocument to='/cooclicious/menu' onClick={()=>window.scrollTo({top:0,behavior:'smooth'})}  className='col-1 text-center navLink'>Menu</Link>
+            <Link reloadDocument to='/cooclicious/gallery' onClick={()=>window.scrollTo({top:0,behavior:'smooth'})}  className='col-1 text-center navLink'>Gallery</Link>
+            <Link reloadDocument to='/cooclicious/contact' onClick={()=>window.scrollTo({top:0,behavior:'smooth'})}  className='col-1 text-center navLink'>Contact</Link>
                 </nav>
                 <div className='col-4 d-md-none d-flex justify-content-end align-items-center'>
                 <TemporaryDrawer/>
