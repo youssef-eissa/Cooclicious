@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/cooclicious/static/css/main.b2df84a0.css",
-    "main.js": "/cooclicious/static/js/main.f9e22504.js",
+    "main.js": "/cooclicious/static/js/main.1c61e247.js",
     "static/js/787.1a7f7fb1.chunk.js": "/cooclicious/static/js/787.1a7f7fb1.chunk.js",
     "static/media/homeBG2.jpeg": "/cooclicious/static/media/homeBG2.0e2766aa1338da97a146.jpeg",
     "static/media/homeBG.jpg": "/cooclicious/static/media/homeBG.eda3ca0d2a81b8b8824e.jpg",
@@ -11,11 +11,11 @@
     "static/media/aboutrecipe.jpeg": "/cooclicious/static/media/aboutrecipe.852c7a5c215efb5b82bb.jpeg",
     "index.html": "/cooclicious/index.html",
     "main.b2df84a0.css.map": "/cooclicious/static/css/main.b2df84a0.css.map",
-    "main.f9e22504.js.map": "/cooclicious/static/js/main.f9e22504.js.map",
+    "main.1c61e247.js.map": "/cooclicious/static/js/main.1c61e247.js.map",
     "787.1a7f7fb1.chunk.js.map": "/cooclicious/static/js/787.1a7f7fb1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b2df84a0.css",
-    "static/js/main.f9e22504.js"
+    "static/js/main.1c61e247.js"
   ]
 }
