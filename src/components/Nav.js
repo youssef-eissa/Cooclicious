@@ -30,7 +30,7 @@ return (
     <div  className='container-fluid px-5 m-0'>
         <div  className='row '>
             <div ref={navRef} className='col-12 d-flex px-5 py-3 nav'>
-                <Link reloadDocument to='/cooclicious/' onClick={()=>window.scrollTo({top:0,behavior:'smooth'})} style={{fontFamily:'Pirata One, cursive',textDecoration:'none',color:'white'}} className='logo col-md-3 col-8 p-0 text-center '>
+                <Link reloadDocument to='/' onClick={()=>window.scrollTo({top:0,behavior:'smooth'})} style={{fontFamily:'Pirata One, cursive',textDecoration:'none',color:'white'}} className='logo col-md-3 col-8 p-0 text-center '>
                 Cooclicious
             </Link>
             <nav  style={{fontFamily:'Dancing Script, cursive'}} className='col-9 d-md-flex d-none p-0 justify-content-center align-items-center'>
