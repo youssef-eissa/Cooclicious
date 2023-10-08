@@ -32,19 +32,19 @@ const list = (anchor) => (
     <List >
         <ListItem className='col-12 d-flex flex-column'  disablePadding>
             <ListItemButton className='col-12'>
-            <Link style={{color:'black',textDecoration:'none',fontFamily: 'Mukta, sans-serif',fontWeight:'bold'}} reloadDocument to='/cooclicious/' onClick={()=>window.scrollTo({top:0,behavior:'smooth'})}  className='col-12 text-center navLink'>Home</Link>
+            <Link style={{color:'black',textDecoration:'none',fontFamily: 'Mukta, sans-serif',fontWeight:'bold'}} reloadDocument to='/' onClick={()=>window.scrollTo({top:0,behavior:'smooth'})}  className='col-12 text-center navLink'>Home</Link>
                 </ListItemButton>
                 <ListItemButton className='col-12'>
-            <Link style={{color:'black',textDecoration:'none',fontFamily: 'Mukta, sans-serif',fontWeight:'bold'}} reloadDocument to='/cooclicious/about' onClick={()=>window.scrollTo({top:0,behavior:'smooth'})}  className='col-12 text-center navLink'>About</Link>
+            <Link style={{color:'black',textDecoration:'none',fontFamily: 'Mukta, sans-serif',fontWeight:'bold'}} reloadDocument to='/about' onClick={()=>window.scrollTo({top:0,behavior:'smooth'})}  className='col-12 text-center navLink'>About</Link>
             </ListItemButton>
             <ListItemButton className='col-12'>
-            <Link style={{color:'black',textDecoration:'none',fontFamily: 'Mukta, sans-serif',fontWeight:'bold'}} reloadDocument to='/cooclicious/menu' onClick={()=>window.scrollTo({top:0,behavior:'smooth'})}  className='col-12 text-center navLink'>Menu</Link>
+            <Link style={{color:'black',textDecoration:'none',fontFamily: 'Mukta, sans-serif',fontWeight:'bold'}} reloadDocument to='/menu' onClick={()=>window.scrollTo({top:0,behavior:'smooth'})}  className='col-12 text-center navLink'>Menu</Link>
             </ListItemButton>
             <ListItemButton className='col-12'>
-            <Link style={{color:'black',textDecoration:'none',fontFamily: 'Mukta, sans-serif',fontWeight:'bold'}} reloadDocument to='/cooclicious/gallery' onClick={()=>window.scrollTo({top:0,behavior:'smooth'})}  className='col-12 text-center navLink'>Gallery</Link>
+            <Link style={{color:'black',textDecoration:'none',fontFamily: 'Mukta, sans-serif',fontWeight:'bold'}} reloadDocument to='/gallery' onClick={()=>window.scrollTo({top:0,behavior:'smooth'})}  className='col-12 text-center navLink'>Gallery</Link>
             </ListItemButton>
             <ListItemButton className='col-12'>
-            <Link style={{color:'black',textDecoration:'none',fontFamily: 'Mukta, sans-serif',fontWeight:'bold'}} reloadDocument to='/cooclicious/contact' onClick={()=>window.scrollTo({top:0,behavior:'smooth'})}  className='col-12 text-center navLink'>Contact</Link>
+            <Link style={{color:'black',textDecoration:'none',fontFamily: 'Mukta, sans-serif',fontWeight:'bold'}} reloadDocument to='/contact' onClick={()=>window.scrollTo({top:0,behavior:'smooth'})}  className='col-12 text-center navLink'>Contact</Link>
                 </ListItemButton>
 
         </ListItem>
@@ -55,7 +55,7 @@ const list = (anchor) => (
 );
 return (
     <div>
-    {[ 'right'].map((anchor) => (
+    {['right'].map((anchor) => (
         <React.Fragment key={anchor}>
         <Button sx={{color:'white'}} onClick={toggleDrawer(anchor, true)}><MenuIcon fontSize='large'/></Button>
         <Drawer

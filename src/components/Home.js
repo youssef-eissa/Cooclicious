@@ -34,7 +34,7 @@ function Home() {
         window.scrollTo({top:0,behavior:'smooth'})
     }
     const { ref,inView} = useInView({
-    threshold:0.2
+    threshold:0.1
     })
     const animate1 = useAnimation()
     useEffect(() => {
